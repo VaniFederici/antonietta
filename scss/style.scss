@@ -46,7 +46,6 @@ header {
   transition: all 500ms;
   background-color: transparent;
 }
-
 .dropdown-menu {
   background-image: linear-gradient(to top, black, rgb(70, 67, 67));
   background-color: transparent;
@@ -61,7 +60,6 @@ header {
   line-height: 1;
   animation: ease-in animat 1s;
 }
-
 @keyframes animat {
   0% {
     transform: scale(0);
@@ -70,7 +68,6 @@ header {
     transform: scale(1);
   }
 }
-
 .title {
   color: $yellow;
   font-size: 2rem;
@@ -110,6 +107,7 @@ header {
   background: url("../img/main-slide-4.jpg") no-repeat center;
   background-size: cover;
 }
+
 /*video*/
 /*bloque BEM*/
 .video-section {
@@ -124,6 +122,7 @@ header {
   width: 100%;
   min-height: 315px;
 }
+
 /*galery*/
 /*nesting*/
 .galery-card {
@@ -140,7 +139,6 @@ header {
     }
   }
 }
-
 .galery-card__galery-img {
   cursor: pointer;
 }
@@ -162,10 +160,12 @@ header {
 .close-modal:hover {
   opacity: 1;
 }
+
 /* contact */
 .contact-body {
   background: url("../img/contact-bg.jpg") no-repeat;
   background-size: cover;
+  background-color: black;
 }
 .contact-card {
   margin: 20px 10px 0px 10px;
@@ -198,7 +198,6 @@ header {
   border: 1px solid rgb(44, 42, 42);
   margin: 20px 10px 0px 10px;
 }
-
 .bio-card__column2 {
   padding: 20px;
   letter-spacing: 2px;
@@ -214,6 +213,7 @@ header {
     color: $yellow;
   }
 }
+
 /* events */
 /*nesting*/
 .events-card {
@@ -246,6 +246,7 @@ footer {
     margin-right: 0px;
   }
 }
+
 /*nesting*/
 .social {
   margin-right: 20px;

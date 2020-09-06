@@ -149,7 +149,8 @@ header {
 /* contact */
 .contact-body {
   background: url("../img/contact-bg.jpg") no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-color: black; }
 
 .contact-card {
   margin: 20px 10px 0px 10px; }
